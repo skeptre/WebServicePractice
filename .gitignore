@@ -1,5 +1,5 @@
 # A general-purpose Java/Gradle .gitignore
-
+HELP.md
 # Compiled class file caches and build outputs
 build/
 out/
