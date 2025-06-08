@@ -1,37 +1,40 @@
-HELP.md
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
+# A general-purpose Java/Gradle .gitignore
 
-### STS ###
-.apt_generated
+# Compiled class file caches and build outputs
+build/
+out/
+bin/
+.gradle/
+
+# The Gradle wrapper JAR is an exception and SHOULD be committed.
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE-specific files
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# STS/Eclipse
 .classpath
-.factorypath
 .project
 .settings
+.factorypath
+.apt_generated
 .springBeans
 .sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
+# VS Code
 .vscode/
+
+# Log files and temporary files
+*.log
+*.tmp
